@@ -26,5 +26,10 @@ export default {
     order: '2',
     flex: '1 0 40%',
     alignSelf: 'flex-start'
+  },
+  likes: {
+    display: 'flex',
+    justifyContent: 'space-between',
+    padding:'0 20px 0 20px'
   }
 }
