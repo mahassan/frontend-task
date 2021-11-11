@@ -2,6 +2,7 @@ import React from 'react';
 import styles from '../Comments/styles';
 import UnlikedIcon from '../like_button/children/unliked_icon';
 const Comments = ({data}) => {
+  console.log(data)
     return (
         <section>
         <div style={styles.commentBox}>
@@ -10,9 +11,9 @@ const Comments = ({data}) => {
                         <strong>{data.node.owner.username}</strong>
                         &nbsp; {data.node.text}
                         &nbsp;
-                        <Link to="#" style={styles.anchor}>
+                        <a href="#" style={styles.anchor}>
                           <UnlikedIcon />
-                        </Link>
+                        </a>
                       </li>)
           })}
         </div>

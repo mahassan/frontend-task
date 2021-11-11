@@ -7,7 +7,7 @@ export default {
     maxWidth: '935px',
     margin: '16px auto',
     width: 'calc(100% - 40px)',
-
+    fontSize: '1rem',
     display: 'flex',
     flexDirection: 'row',
     flexWrap: 'wrap',
